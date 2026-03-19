@@ -1,0 +1,29 @@
+.header {
+  background-color: #8b0000;
+  color: white;
+  padding: 15px 20px;
+  margin-left: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  height: 40px;
+  width: auto;
+}
+
+.school-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user-info {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.user-info a {
+  color: white;
+  text-decoration: none;
+}

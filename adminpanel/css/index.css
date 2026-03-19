@@ -1,0 +1,43 @@
+   
+    .card-album {
+            height: 350px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s;
+        }
+
+        .card-album:hover {
+            transform: scale(1.01);
+        }
+
+        .card-album img {
+            height: 180px;
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .card-body {
+            padding: 10px 12px;
+        }
+
+        .card-title {
+            font-size: 15.5px;
+            font-weight: 600;
+            color: #222;
+            margin: 8px 0 2px 0;
+            /* Top 8px, bottom 2px to reduce gap */
+        }
+
+        .album-meta {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+            margin: 0;
+        }
